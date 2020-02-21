@@ -72,6 +72,7 @@ def main():
                                 except Exception:
                                     # if more cont, add more try- except and  ( # Writing cat_1 ) ---------
                                     cat_01 = item2.text.strip()
+                                    print(cat_01)
                                     cat_02, cat_03, cat_04, cat_05, cat_06, cat_07, cat_08, cat_09 = '', '', '', '', '', '', '', ''
 
                                     write_csv(j, url, cat_01, cat_02, cat_03, cat_04, cat_05, cat_06, cat_07, cat_08, cat_09)
